@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a senior undergradute student from School of Artificial Intelligence, Beijing Normal University. My research interest includes computer vision, computer graphics and machine learning. I was very fortunate to be advised by Prof. Shi-Sheng Huang.
+I'm a senior undergraduate student from School of Artificial Intelligence, Beijing Normal University. My research interest includes computer vision, computer graphics and machine learning. I was very fortunate to be advised by Prof. Shi-Sheng Huang.
 
 I'm currently taking internship in VAST(Beijing) working with Dr. Zi-Xin Zou. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
 
