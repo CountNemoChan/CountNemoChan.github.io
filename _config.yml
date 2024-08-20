@@ -24,7 +24,7 @@ author:
   avatar           : "IMG_2001.png"
   name             : "Li-Heng Chen"
   pronouns         : # example: "she/her"  
-  # bio              : ""
+  bio              : "Undergraduate student at Beijing Normal University, former Machine Learning Engineer intern at ABB, currently serving as an Algorithm Researcher at VAST."
   location         : "Beijing, China"
   employer         : "Beijing Normal University"
   uri              : # URL
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/CountNemoChan"
+  github           : "CountNemoChan"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
