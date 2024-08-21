@@ -16,7 +16,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
 [School Email](mailto:202111081084@mail.bnu.edu.cn) / [Personal Email](mailto:liheng.chen0308@gmail.com) /[Github](https://github.com/CountNemoChan)
 
 
-# Project
+# ACADEMIC EXPERIENCE
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -43,6 +43,21 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
     <p><em>ICML 2024</em></p>
     <p>
       <a href="../assets/huang24b.pdf" target="_blank">[Paper]</a>
+    </p>
+  </div>
+</div>
+
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/paddy_field.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p><strong>Construction of a speckle pattern model with paddy field characteristics</strong></p>
+    <p>Rui Chen, <strong>Li-Heng Chen</strong>, Wentao Qing</p>
+    <p><em>Beijing Undergraduate Research and Innovation Project.”</em></p>
+    <p>
+      <a href="../assets/paddy_field.pdf" target="_blank">[Paper]</a>
     </p>
   </div>
 </div>
