@@ -21,7 +21,7 @@ url                      : https://CountNemoChan.github.io # the base hostname &
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_2001.png"
+  avatar           : "img_2002.png"
   name             : "Li-Heng Chen"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate student at Beijing Normal University, former Machine Learning Engineer intern at ABB, currently serving as an Algorithm Researcher at VAST."
