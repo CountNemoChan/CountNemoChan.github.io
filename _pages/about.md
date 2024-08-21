@@ -61,3 +61,12 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
     </p>
   </div>
 </div>
+
+
+# PROFESSIONAL EXPERIENCE
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="../images/gangwudianli.png" alt="Image 1" style="width: 22%; margin-right: 5px;">
+  <img src="../images/abb.png" alt="Image 2" style="width: 22%; margin-right: 5px;">
+  <img src="../images/vast.png" alt="Image 3" style="width: 22%;">
+</div>
