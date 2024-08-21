@@ -15,6 +15,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
 
 [School Email](mailto:202111081084@mail.bnu.edu.cn) / [Personal Email](mailto:liheng.chen0308@gmail.com) /[Github](https://github.com/CountNemoChan)
 
+<br><br>
 
 # ACADEMIC EXPERIENCE
 
@@ -62,6 +63,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
   </div>
 </div>
 
+<br><br>
 
 # PROFESSIONAL EXPERIENCE
 
