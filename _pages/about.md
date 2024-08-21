@@ -7,6 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0S6G04Y14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0S6G04Y14');
+</script>
+
 I'm a senior undergraduate student from School of Artificial Intelligence, Beijing Normal University. My research interest includes computer vision, computer graphics and machine learning. I was very fortunate to be advised by Prof. Shi-Sheng Huang.
 
 I'm currently taking internship in VAST(Beijing) working with Dr. Zi-Xin Zou. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
