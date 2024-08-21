@@ -28,7 +28,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
     <p><strong>Li-Heng Chen</strong>, Rui Chen, Yujia Liu</p>
     <p><em>MCM2024 (F Prize)</em></p>
     <p>
-      <a href="../assets/2418588.pdf" target="_blank">[Paper]</a>
+      <a href="../assets/2418588.pdf" target="_blank">[Paper]</a> <a href="../assets/certificate_of_mcm.pdf" target="_blank">[Certificate]</a>
     </p>
   </div>
 </div>
