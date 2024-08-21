@@ -56,7 +56,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
   <div style="flex: 2; margin-left: 20px;">
     <p><strong>Construction of a speckle pattern model with paddy field characteristics</strong></p>
     <p>Rui Chen, <strong>Li-Heng Chen</strong>, Wentao Qing</p>
-    <p><em>Beijing Undergraduate Research and Innovation Project.”</em></p>
+    <p><em>Beijing Undergraduate Research and Innovation Project.</em></p>
     <p>
       <a href="../assets/paddy_field.pdf" target="_blank">[Paper]</a>
     </p>
