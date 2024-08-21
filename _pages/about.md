@@ -24,7 +24,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p><strong>The Power of Momentum: How to Win the Match with Data</strong></p>
-    <p>Li-Heng Chen, Rui Chen, Yujia Liu</p>
+    <p><strong>Li-Heng Chen</strong>, Rui Chen, Yujia Liu</p>
     <p><em>MCM2024(F Prize)</em></p>
     <p>
       <a href="../assets/2418588.pdf" target="_blank">[Paper]</a>
@@ -32,3 +32,17 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
   </div>
 </div>
 
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="icml2024.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p><strong>NeuralIndicator: Implicit Surface Reconstruction from Neural Indicator Priors</strong></p>
+    <p>Shi-Sheng Huang, Guo Chen, <strong>Li-Heng Chen</strong>, Hua Huang</p>
+    <p><em>ICML 2024</em></p>
+    <p>
+      <a href="../assets/huang24b.pdf" target="_blank">[Paper]</a>
+    </p>
+  </div>
+</div>
