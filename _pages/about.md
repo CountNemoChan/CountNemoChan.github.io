@@ -35,7 +35,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="icml2024.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+    <img src="../images/icml2024.png" alt="Description" style="width: 100%; max-width: 300px;"/>
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p><strong>NeuralIndicator: Implicit Surface Reconstruction from Neural Indicator Priors</strong></p>
