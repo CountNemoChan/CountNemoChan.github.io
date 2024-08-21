@@ -15,3 +15,17 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_
 
 [School Email](mailto:202111081084@mail.bnu.edu.cn) / [Personal Email](mailto:liheng.chen0308@gmail.com) /[Github](https://github.com/CountNemoChan)
 
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/mcm2024.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p><strong>The Power of Momentum: How to Win the Match with Data</strong></p>
+    <p>Li-Heng Chen, Rui Chen, Yujia Liu</p>
+    <p><em>MCM2024(F Prize)</em></p>
+    <p>
+      <a href="../assets/2418588.pdf" target="_blank">[Paper]</a>
+    </p>
+  </div>
+</div>
