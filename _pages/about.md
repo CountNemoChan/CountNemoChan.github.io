@@ -17,17 +17,34 @@ redirect_from:
   gtag('config', 'G-N0S6G04Y14');
 </script>
 
-I'm a senior undergraduate student from School of Artificial Intelligence, Beijing Normal University. My research interest includes computer vision, computer graphics and machine learning. I was very fortunate to be advised by Prof. Shi-Sheng Huang.
+<!-- I'm a senior undergraduate student from School of Artificial Intelligence, Beijing Normal University. My research interest includes computer vision, computer graphics and machine learning. I was very fortunate to be advised by Prof. Shi-Sheng Huang. -->
 
-I'm currently taking internship in VAST(Beijing) advised by Dr. Zi-Xin Zou. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
+  I'm a first-year MPhil. at [Academy of Interdisciplinary Studies](https://ais.hkust.edu.hk/), [Hong Kong University of Science and Technology](https://hkust.edu.hk/). My research interests span **Computer Vision**, **Computer Graphics**, and **Machine Learning**. I was very fortunate to be advised by Prof. Hongbo Fu and Prof. Anyi Rao.
 
-You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CHENLiheng_CV_aug20.pdf)
+I'm currently taking internship in VAST(Beijing) working closely with Dr. Zi-Xin Zou. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
+
+You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250630.pdf)
 
 [Business Eail](mailto:chenliheng@vastai3d.com) / [School Email](mailto:202111081084@mail.bnu.edu.cn) / [Personal Email](mailto:liheng.chen0308@gmail.com) /[Github](https://github.com/CountNemoChan)
 
 <br><br>
 
 # ACADEMIC EXPERIENCE
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/gcraydiffusion_teaser.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p><strong>GCRayDiffusion: Pose-Free Surface Reconstruction via Geometric Consistent Ray Diffusion</strong></p>
+    <p><strong>Li-Heng Chen</strong>, Zi-Xin Zou, Chang Liu, Tianjiao Jing, Yan-Pei Cao, Shi-Sheng Huang, Hongbo Fu, Hua Huang</p>
+    <p><em>ICCV 2025</em></p>
+    <p>
+      <a href="https://arxiv.org/abs/2503.22349" target="_blank">[arXiv]</a>
+    </p>
+  </div>
+</div>
+
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
