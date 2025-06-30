@@ -38,7 +38,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250630
   <div style="flex: 2; margin-left: 20px;">
     <p><strong>GCRayDiffusion: Pose-Free Surface Reconstruction via Geometric Consistent Ray Diffusion</strong></p>
     <p><strong>Li-Heng Chen</strong>, Zi-Xin Zou, Chang Liu, Tianjiao Jing, Yan-Pei Cao, Shi-Sheng Huang, Hongbo Fu, Hua Huang</p>
-    <p><em>ICCV 2025</em></p>
+    <p><em>International Conference on Computer Vision(ICCV),2025</em></p>
     <p>
       <a href="https://arxiv.org/abs/2503.22349" target="_blank">[arXiv]</a>
     </p>
@@ -68,7 +68,7 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250630
   <div style="flex: 2; margin-left: 20px;">
     <p><strong>NeuralIndicator: Implicit Surface Reconstruction from Neural Indicator Priors</strong></p>
     <p>Shi-Sheng Huang, Guo Chen, <strong>Li-Heng Chen</strong>, Hua Huang</p>
-    <p><em>ICML 2024</em></p>
+    <p><em>International Conference on Machine Learning(ICML),2024</em></p>
     <p>
       <a href="../assets/huang24b.pdf" target="_blank">[Paper]</a>
     </p>
