@@ -24,9 +24,9 @@ author:
   avatar           : "img_2002.PNG"
   name             : "Li-Heng Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate student at Beijing Normal University, former Machine Learning Engineer intern at ABB, currently serving as an Algorithm Researcher at VAST."
-  location         : "Beijing, China"
-  employer         : "Beijing Normal University"
+  bio              : "Research Postgraduate student at Hong Kong University of Science and Technology, former Machine Learning Engineer intern at ABB, currently serving as an Algorithm Researcher at VAST."
+  location         : "Hong Kong"
+  employer         : "Hong Kong University of Science and Technology"
   uri              : # URL
   email            : "liheng.chen0308@gmail.com" 
 
