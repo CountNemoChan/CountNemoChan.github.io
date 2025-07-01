@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Research Postgraduate student at Hong Kong University of Science and Technology, former Machine Learning Engineer intern at ABB, currently serving as an Algorithm Researcher at VAST."
   location         : "Hong Kong"
-  employer         : #"HKUST"
-  university       : "HKUST"
+  employer         : "HKUST"
+  # university       : "HKUST"
   uri              : # URL
   email            : "liheng.chen0308@gmail.com" 
 
