@@ -23,7 +23,7 @@ redirect_from:
 
 I'm currently taking internship at VAST(Beijing) working closely with Dr. Zi-Xin Zou. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
 
-You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250630.pdf)
+You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250702.pdf)
 
 [Business Eail](mailto:chenliheng@vastai3d.com) / [School Email](mailto:202111081084@mail.bnu.edu.cn) / [Personal Email](mailto:liheng.chen0308@gmail.com) /[Github](https://github.com/CountNemoChan)
 
