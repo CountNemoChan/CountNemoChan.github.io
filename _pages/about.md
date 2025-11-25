@@ -21,7 +21,10 @@ redirect_from:
 
   I'm a first-year MPhil. at [Academy of Interdisciplinary Studies](https://ais.hkust.edu.hk/), [Hong Kong University of Science and Technology](https://hkust.edu.hk/). My research interests span **Computer Vision**, **Computer Graphics**, and **Machine Learning**. I was very fortunate to be advised by Prof. Hongbo Fu and Prof. Anyi Rao. I received my B.E. degree in Artificial Intelligence from Beijing Normal University, where I worked on 3D reconstruction under the supervision of Prof. Shi-Sheng Huang.
 
-I'm currently taking internship at VAST(Beijing) working closely with Dr. Zi-Xin Zou and Dr. Yan-Pei Cao. I work on topics about 3D generation and reconstruction including neural rendering and generative models.
+I am currently conducting an internship at Meituan (Beijing), where my work is centered on World Models, specifically in the domain of Synthesis and Simulation for Autonomous Driving Data. Prior to this, I gained valuable experience at VAST (Beijing), concentrating on 3D Generation and Reconstruction under the guidance of Dr. Zi-Xin Zou and Dr. Yan-Pei Cao.
+<!-- I'm currently taking internship at Meituan(Beijing), working on topics about world model, including Synthesis and Simulation of Autonomous Driving Data.
+Previously, I focused on 3D Generation and Reconstruction at VAST(Bejing), where I worked closely with Dr. Zi-Xin Zou and Dr. Yan-Pei Cao. -->
+<!-- I'm currently taking internship at VAST(Beijing) working closely with Dr. Zi-Xin Zou and Dr. Yan-Pei Cao. I work on topics about 3D generation and reconstruction including neural rendering and generative models. -->
 
 You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250903.pdf)
 
