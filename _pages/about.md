@@ -98,7 +98,8 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250903
 # PROFESSIONAL EXPERIENCE
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="../images/gangwudianli.png" alt="Image 1" style="width: 22%; margin-right: 5px;">
-  <img src="../images/abb.png" alt="Image 2" style="width: 22%; margin-right: 5px;">
-  <img src="../images/vast_1.png" alt="Image 3" style="width: 22%;">
+  <img src="../images/gangwudianli.png" alt="Image 1" style="width: 22%; margin-right: 3px;">
+  <img src="../images/abb.png" alt="Image 2" style="width: 22%; margin-right: 3px;">
+  <img src="../images/vast_1.png" alt="Image 3" style="width: 22%; margin-right: 3px;">
+  <img src="../images/meituan_logo.png" alt="Image 4" style="width: 22%;">
 </div>
