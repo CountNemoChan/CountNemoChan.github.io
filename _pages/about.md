@@ -36,6 +36,20 @@ You can find my CV here: [Li-Heng Chen's Curriculum Vitae](../assets/CV_20250903
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
+    <img src="../images/vistagen_teaser.png" alt="Description" style="width: 100%; max-width: 300px;"/>
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p><strong>VistaGEN: Consistent Driving Video Generation with Fine-Grained Control Using Multiview Visual-Language Reasoning</strong></p>
+    <p><strong>Li-Heng Chen</strong><sup>*</sup>, Ke Cheng<sup>*</sup>, Yahui Liu, Lei Shi, Shi-Sheng Huang, Hongbo Fu</p>
+    <p><em>Under Reviewed</em></p>
+    <p>
+      <a href="https://arxiv.org/abs/2603.28353" target="_blank">[arXiv]</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
     <img src="../images/gcraydiffusion_teaser.png" alt="Description" style="width: 100%; max-width: 300px;"/>
   </div>
   <div style="flex: 2; margin-left: 20px;">
