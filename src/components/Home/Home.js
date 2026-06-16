@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import profileImg from "../../Assets/liheng-profile.png";
+import profileImg from "../../Assets/profile_photo.jpeg";
 import Particle from "../Particle";
 import Type from "./Type";
 import {
