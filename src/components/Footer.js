@@ -53,6 +53,11 @@ function Footer() {
           </ul>
         </Col>
       </Row>
+      <Row>
+        <Col className="footer-updated">
+          <h3>Last updated: 2026.1.1</h3>
+        </Col>
+      </Row>
     </Container>
   );
 }

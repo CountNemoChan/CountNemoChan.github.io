@@ -34,28 +34,28 @@ function Techstack() {
         <img src={Docker} alt="docker" />
         <div className="tech-icons-text">Docker</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">JavaScript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">TypeScript</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <img src={Java} alt="java" />
         <div className="tech-icons-text">Java</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <div className="tech-icons-text no-icon">Computer Vision</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="tech-icons-text no-icon">3D Reconstruction</div>
-      </Col>
+      </Col> */}
     </Row>
   );
 }

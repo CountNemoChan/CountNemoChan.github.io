@@ -8,6 +8,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { BsBriefcase } from "react-icons/bs";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -73,7 +74,17 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Work
+                Publication
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <BsBriefcase style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 

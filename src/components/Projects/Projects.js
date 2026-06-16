@@ -29,7 +29,18 @@ function Projects() {
               imgPath={vistagen}
               isBlog={false}
               title="VistaGEN"
-              description="Consistent driving video generation with fine-grained control using multiview visual-language reasoning. Under review. Co-first authored with Ke Cheng."
+              description={
+                <>
+                  Consistent driving video generation with fine-grained control
+                  using multiview visual-language reasoning.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Li-Heng Chen*, Ke Cheng*, Yahui Liu, Lei Shi,
+                  Shi-Sheng Huang, Hongbo Fu.
+                  <br />
+                  <b>Status:</b> Under review.
+                </>
+              }
               primaryLink="https://arxiv.org/abs/2603.28353"
               primaryLabel="arXiv"
             />
@@ -40,7 +51,19 @@ function Projects() {
               imgPath={gcraydiffusion}
               isBlog={false}
               title="GCRayDiffusion"
-              description="Pose-free surface reconstruction via geometric consistent ray diffusion, with Zi-Xin Zou, Chang Liu, Tianjiao Jing, Yan-Pei Cao, Shi-Sheng Huang, Hongbo Fu, and Hua Huang. Accepted to ICCV 2025."
+              description={
+                <>
+                  Pose-free surface reconstruction via geometric consistent ray
+                  diffusion.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Li-Heng Chen, Zi-Xin Zou, Chang Liu, Tianjiao
+                  Jing, Yan-Pei Cao, Shi-Sheng Huang, Hongbo Fu, Hua Huang.
+                  <br />
+                  <b>Venue:</b> International Conference on Computer Vision
+                  (ICCV), 2025.
+                </>
+              }
               primaryLink="https://arxiv.org/abs/2503.22349"
               primaryLabel="arXiv"
             />
@@ -51,7 +74,16 @@ function Projects() {
               imgPath={mcm}
               isBlog={false}
               title="The Power of Momentum"
-              description="How to win the match with data. Mathematical Contest in Modeling 2024 F Prize, with Rui Chen and Yujia Liu."
+              description={
+                <>
+                  How to win the match with data.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Li-Heng Chen, Rui Chen, Yujia Liu.
+                  <br />
+                  <b>Award:</b> Mathematical Contest in Modeling 2024, F Prize.
+                </>
+              }
               secondaryLinks={[
                 { label: "Paper", url: mcmPaper },
                 { label: "Certificate", url: mcmCertificate },
@@ -64,7 +96,18 @@ function Projects() {
               imgPath={neuralIndicator}
               isBlog={false}
               title="NeuralIndicator"
-              description="Implicit surface reconstruction from neural indicator priors. Published at ICML 2024 with Shi-Sheng Huang, Guo Chen, and Hua Huang."
+              description={
+                <>
+                  Implicit surface reconstruction from neural indicator priors.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Shi-Sheng Huang, Guo Chen, Li-Heng Chen, Hua
+                  Huang.
+                  <br />
+                  <b>Venue:</b> International Conference on Machine Learning
+                  (ICML), 2024.
+                </>
+              }
               secondaryLinks={[{ label: "Paper", url: neuralIndicatorPaper }]}
             />
           </Col>
@@ -74,7 +117,18 @@ function Projects() {
               imgPath={paddyField}
               isBlog={false}
               title="Paddy Field Speckle Model"
-              description="Construction of a speckle pattern model with paddy field characteristics. Beijing Undergraduate Research and Innovation Project with Rui Chen and Wentao Qing."
+              description={
+                <>
+                  Construction of a speckle pattern model with paddy field
+                  characteristics.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Rui Chen, Li-Heng Chen, Wentao Qing.
+                  <br />
+                  <b>Project:</b> Beijing Undergraduate Research and Innovation
+                  Project.
+                </>
+              }
               secondaryLinks={[{ label: "Paper", url: paddyFieldPaper }]}
             />
           </Col>

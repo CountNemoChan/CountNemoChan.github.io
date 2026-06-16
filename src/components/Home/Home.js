@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profileImg from "../../Assets/liheng-profile.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
@@ -42,7 +41,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
 
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
