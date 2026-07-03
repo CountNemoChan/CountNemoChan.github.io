@@ -5,12 +5,14 @@ import gangwudianliLogo from "../../Assets/Experience/gangwudianli.png";
 import abbLogo from "../../Assets/Experience/abb.png";
 import vastLogo from "../../Assets/Experience/vast_1.png";
 import meituanLogo from "../../Assets/Experience/meituan_logo.png";
+import nioLogo from "../../Assets/Experience/nio.png";
 
 const professionalExperience = [
   { name: "IPC", logo: gangwudianliLogo },
   { name: "ABB", logo: abbLogo },
   { name: "VAST", logo: vastLogo },
   { name: "Meituan", logo: meituanLogo },
+  { name: "NIO", logo: nioLogo },
 ];
 
 function Experience() {

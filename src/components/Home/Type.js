@@ -9,7 +9,7 @@ function Type() {
           "PhD Student at HKUST",
           "Computer Vision Researcher",
           "Computer Graphics Explorer",
-          "World Model Intern at Meituan",
+          "Vision Foundation Model Intern at NIO",
         ],
         autoStart: true,
         loop: true,

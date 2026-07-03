@@ -37,13 +37,10 @@ function AboutCard() {
             supervision of Prof. Shi-Sheng Huang.
             <br />
             <br />
-            I am currently conducting an internship at{" "}
-            <b className="purple">Meituan (Beijing)</b>, where my work is
-            centered on World Models, specifically in the domain of Synthesis
-            and Simulation for Autonomous Driving Data. Prior to this, I gained
-            valuable experience at <b className="purple">VAST (Beijing)</b>,
-            concentrating on 3D Generation and Reconstruction under the guidance
-            of Dr. Zi-Xin Zou and Dr. Yan-Pei Cao.
+            I am currently interning with the{" "}
+            <b className="purple">Vision Foundation Model team at NIO</b>,
+            where I focus on World Models and multimodal large language models
+            (MLLMs), working closely with Dr. Sheng Yang. 
           </p>
 
           <p style={{ textAlign: "justify" }}>My current work focuses on:</p>
@@ -51,6 +48,9 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <ImPointRight /> World models
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Multimodal large language models (MLLMs)
             </li>
             <li className="about-activity">
               <ImPointRight /> 3D generation and reconstruction
