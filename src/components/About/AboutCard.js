@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I’m a first-year MPhil. at{" "}
+            I’m a second-year PhD student at{" "}
             <a
               href="https://ais.hkust.edu.hk/"
               target="_blank"
