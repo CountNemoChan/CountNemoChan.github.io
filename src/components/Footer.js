@@ -55,7 +55,7 @@ function Footer() {
       </Row>
       <Row>
         <Col className="footer-updated">
-          <h3>Last updated: 2026.1.1</h3>
+          <h3>Last updated: Aug. 2026</h3>
         </Col>
       </Row>
     </Container>
