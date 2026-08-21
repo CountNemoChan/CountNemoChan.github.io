@@ -12,7 +12,7 @@ function Home2() {
               RESEARCH <span className="purple"> SNAPSHOT </span>
             </h1>
             <p className="home-about-body">
-              I’m a second-year PhD student at{" "}
+              I’m a second-year PhD candidate at{" "}
               <a
                 href="https://ais.hkust.edu.hk/"
                 target="_blank"

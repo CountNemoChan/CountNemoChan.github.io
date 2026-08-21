@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import usrDrive from "../../Assets/Projects/usr_drive_teaser.png";
 import vistagen from "../../Assets/Projects/vistagen_teaser.png";
 import gcraydiffusion from "../../Assets/Projects/gcraydiffusion_teaser.png";
 import mcm from "../../Assets/Projects/mcm2024_2.png";
@@ -24,6 +25,29 @@ function Projects() {
           Research projects and publications from my academic homepage.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={usrDrive}
+              isBlog={false}
+              title="USR-Drive"
+              description={
+                <>
+                  Unified driving scene representation via joint denoising of
+                  3D Gaussians and boxes.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Li-Heng Chen, Haokai Pang, Chengye Su, Jiarun
+                  Liu, Qifeng Chen, Ziqian Ni, Jianxin Huang, Shi-Sheng Huang,
+                  Hongbo Fu, Sheng Yang.
+                  <br />
+                  <b>Status:</b> arXiv preprint, 2026.
+                </>
+              }
+              primaryLink="https://arxiv.org/abs/2608.19036"
+              primaryLabel="arXiv"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vistagen}
