@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import fpdDrive from "../../Assets/Projects/fpd_drive_teaser.png";
 import usrDrive from "../../Assets/Projects/usr_drive_teaser.png";
 import vistagen from "../../Assets/Projects/vistagen_teaser.png";
 import gcraydiffusion from "../../Assets/Projects/gcraydiffusion_teaser.png";
@@ -25,6 +26,33 @@ function Projects() {
           Research projects and publications from my academic homepage.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fpdDrive}
+              isBlog={false}
+              title="FPD-Drive"
+              description={
+                <>
+                  Future policy distillation for end-to-end autonomous driving.
+                  <br />
+                  <br />
+                  <b>Authors:</b> Li-Heng Chen*, Qifeng Chen*, Chengwei Wu,
+                  Yingjie Zhang, Sheng Yang, Hongbo Fu, Shaoqing Ren.
+                  <br />
+                  <b>Status:</b> arXiv preprint, 2026.
+                </>
+              }
+              primaryLink="https://arxiv.org/abs/2610.13232"
+              primaryLabel="arXiv"
+              secondaryLinks={[
+                {
+                  label: "Project",
+                  url: "https://countnemochan.github.io/FPD-Drive/",
+                },
+              ]}
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={usrDrive}

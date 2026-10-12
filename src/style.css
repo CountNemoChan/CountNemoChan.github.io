@@ -574,6 +574,20 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(56, 189, 248, 0.42) !important;
 }
 
+.project-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-card-links .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;

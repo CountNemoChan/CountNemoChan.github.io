@@ -13,31 +13,32 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
-          </Button>
-        )}
-        {props.primaryLink && (
-          <Button variant="primary" href={props.primaryLink} target="_blank">
-            <CgWebsite /> &nbsp;
-            {props.primaryLabel || "Link"}
-          </Button>
-        )}
-        {props.secondaryLinks?.map((link) => (
-          <Button
-            key={link.label}
-            variant="primary"
-            href={link.url}
-            target="_blank"
-            rel="noreferrer"
-            style={{ marginLeft: "10px", marginTop: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {link.label}
-          </Button>
-        ))}
+        <div className="project-card-links">
+          {props.ghLink && (
+            <Button variant="primary" href={props.ghLink} target="_blank">
+              <BsGithub />
+              {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+          )}
+          {props.primaryLink && (
+            <Button variant="primary" href={props.primaryLink} target="_blank">
+              <CgWebsite />
+              {props.primaryLabel || "Link"}
+            </Button>
+          )}
+          {props.secondaryLinks?.map((link) => (
+            <Button
+              key={link.label}
+              variant="primary"
+              href={link.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <CgWebsite />
+              {link.label}
+            </Button>
+          ))}
+        </div>
       </Card.Body>
     </Card>
   );
