@@ -17,7 +17,7 @@ nav a[aria-current="page"] { color: var(--pine); text-decoration: underline; tex
 .eyebrow { display: flex; align-items: center; gap: 11px; font-size: 12px; letter-spacing: .09em; text-transform: uppercase; }
 .accent-line { width: 25px; height: 1px; background: currentColor; }
 .intro h1 { margin: 13px 0 16px; font-size: clamp(52px, 6.5vw, 90px); letter-spacing: -.063em; }
-.intro-text { max-width: 550px; font-size: clamp(17px, 1.55vw, 20px); line-height: 1.55; color: var(--muted); }
+.intro-text { max-width: 65ch; font-size: clamp(16px, 1.35vw, 18px); line-height: 1.55; color: var(--muted); }
 .contact-links { flex-wrap: wrap; gap: 24px; margin-top: 26px; font-size: 14px; }
 .contact-links a, .paper-links a { display: inline-flex; align-items: center; gap: 6px; }
 .action { padding: 9px 16px; gap: 8px; background: var(--pine); color: #fff; border-radius: 4px; font-weight: 500; }
@@ -47,13 +47,11 @@ nav a[aria-current="page"] { color: var(--pine); text-decoration: underline; tex
 .site-footer div { gap: 20px; }
 .inner-page { padding: clamp(42px, 6vw, 76px) 0 64px; }
 .inner-page h1 { margin-bottom: 32px; font-size: clamp(44px, 5.7vw, 72px); letter-spacing: -.055em; }
-.about-layout { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(170px, 1fr); gap: 8%; border-top: 1px solid var(--line); padding-top: 24px; }
-.bio { font-size: 18px; color: var(--muted); }
+.profile-details { padding-bottom: 36px; }
 .bio p + p { margin-top: 17px; }
 .bio a, .activity a { color: var(--pine); }
-.toolkit { border-left: 1px solid var(--line); padding-left: 22px; }
+.toolkit { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
 .toolkit h2 { font-size: 25px; margin-bottom: 7px; }
-.toolkit p + h2 { margin-top: 22px; }
 .activity { margin-top: 36px; padding: 13px 0; border-block: 1px solid var(--line); }
 .activity summary { cursor: pointer; color: var(--pine); }
 .activity .calendar { overflow-x: auto; padding-block: 20px; }
@@ -76,8 +74,7 @@ nav a[aria-current="page"] { color: var(--pine); text-decoration: underline; tex
   nav { gap: 12px; }
   nav a { font-size: 13px; }
   .intro { gap: 5%; padding-right: 4px; grid-template-columns: 1fr 25%; }
-  .about-layout { grid-template-columns: 1fr; gap: 28px; }
-  .toolkit { padding-left: 16px; }
+  .toolkit { grid-template-columns: 1fr; }
   .positions li { grid-template-columns: 65px 1fr; column-gap: 15px; row-gap: 5px; }
   .positions .metadata { grid-column: 2; }
 }

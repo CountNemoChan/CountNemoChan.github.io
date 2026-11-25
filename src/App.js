@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
 import "./style.css";
@@ -21,7 +20,6 @@ export default function App() {
         <Suspense fallback={<p role="status">Loading CV…</p>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
             <Route path="/project" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/resume" element={<Resume />} />
