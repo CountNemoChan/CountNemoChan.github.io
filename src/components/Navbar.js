@@ -10,6 +10,7 @@ export default function Navbar() {
           <span>Li-Heng Chen</span>
         </NavLink>
         <nav aria-label="Main navigation">
+          <NavLink to="/" end>Home</NavLink>
           <NavLink to="/project">Publications</NavLink>
           <NavLink to="/experience">Experience</NavLink>
           <NavLink to="/resume">CV</NavLink>
