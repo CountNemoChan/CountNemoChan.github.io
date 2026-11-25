@@ -25,11 +25,15 @@ export default function AboutCard() {
         <b>
           Computer Vision, Computer Graphics, and Machine Learning.
         </b>{" "}
-        I was very fortunate to be advised by Prof. Hongbo Fu and Prof.
-        Anyi Rao. I received my B.E. degree in{" "}
+        I was very fortunate to be advised by Prof.{" "}
+        <a href="https://hongbofu.people.ust.hk/" target="_blank" rel="noreferrer">Hongbo Fu</a>
+        {" "}and Prof.{" "}
+        <a href="https://anyirao.com/" target="_blank" rel="noreferrer">Anyi Rao</a>.
+        I received my B.E. degree in{" "}
         <b>Artificial Intelligence</b> from Beijing
         Normal University, where I worked on 3D reconstruction under the
-        supervision of Prof. Shi-Sheng Huang.
+        supervision of Prof.{" "}
+        <a href="https://shishenghuang.github.io/index/" target="_blank" rel="noreferrer">Shi-Sheng Huang</a>.
       </p>
       <p>
         I am currently interning with the{" "}
