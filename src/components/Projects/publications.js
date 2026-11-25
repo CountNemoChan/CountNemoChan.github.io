@@ -13,6 +13,7 @@ import paddyFieldPaper from "../../Assets/Publications/paddy-field.pdf";
 export const publications = [
   {
     title: "FPD-Drive",
+    featured: true,
     description: "Future policy distillation for end-to-end autonomous driving.",
     authors: "Li-Heng Chen*, Qifeng Chen*, Chengwei Wu, Yingjie Zhang, Sheng Yang, Hongbo Fu, Shaoqing Ren",
     venue: "arXiv · 2026",
@@ -24,6 +25,7 @@ export const publications = [
   },
   {
     title: "USR-Drive",
+    featured: true,
     description: "Unified driving scene representation via joint denoising of 3D Gaussians and boxes.",
     authors: "Li-Heng Chen, Haokai Pang, Chengye Su, Jiarun Liu, Qifeng Chen, Ziqian Ni, Jianxin Huang, Shi-Sheng Huang, Hongbo Fu, Sheng Yang",
     venue: "arXiv · 2026",
@@ -32,6 +34,7 @@ export const publications = [
   },
   {
     title: "VistaGEN",
+    featured: true,
     description: "Consistent driving video generation with fine-grained control using multiview visual-language reasoning.",
     authors: "Li-Heng Chen*, Ke Cheng*, Yahui Liu, Lei Shi, Shi-Sheng Huang, Hongbo Fu",
     venue: "Under review",
@@ -40,6 +43,7 @@ export const publications = [
   },
   {
     title: "GCRayDiffusion",
+    featured: true,
     description: "Pose-free surface reconstruction via geometric consistent ray diffusion.",
     authors: "Li-Heng Chen, Zi-Xin Zou, Chang Liu, Tianjiao Jing, Yan-Pei Cao, Shi-Sheng Huang, Hongbo Fu, Hua Huang",
     venue: "ICCV · 2025",

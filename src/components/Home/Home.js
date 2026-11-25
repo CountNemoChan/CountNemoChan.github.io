@@ -30,7 +30,9 @@ export default function Home() {
           <Link className="text-link" to="/project">All publications <FiArrowRight aria-hidden="true" /></Link>
         </div>
         <div className="papers">
-          {publications.slice(0, 3).map(paper => <ProjectCard key={paper.title} paper={paper} />)}
+          {publications.filter(paper => paper.featured).map(paper => (
+            <ProjectCard key={paper.title} paper={paper} />
+          ))}
         </div>
       </section>
       <div className="profile-details">
