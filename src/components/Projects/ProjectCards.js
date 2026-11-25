@@ -1,46 +1,26 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { FiArrowUpRight } from "react-icons/fi";
 
-function ProjectCards(props) {
+export default function ProjectCard({ paper, showAuthors = false }) {
+  const Heading = showAuthors ? "h2" : "h3";
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <div className="project-card-links">
-          {props.ghLink && (
-            <Button variant="primary" href={props.ghLink} target="_blank">
-              <BsGithub />
-              {props.isBlog ? "Blog" : "GitHub"}
-            </Button>
-          )}
-          {props.primaryLink && (
-            <Button variant="primary" href={props.primaryLink} target="_blank">
-              <CgWebsite />
-              {props.primaryLabel || "Link"}
-            </Button>
-          )}
-          {props.secondaryLinks?.map((link) => (
-            <Button
-              key={link.label}
-              variant="primary"
-              href={link.url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <CgWebsite />
-              {link.label}
-            </Button>
+    <article className="paper">
+      <div className="paper-figure">
+        <img src={paper.image} alt="" loading="lazy" />
+      </div>
+      <div className="paper-copy">
+        <span className="metadata">{paper.venue}</span>
+        <Heading className="paper-title"><a href={paper.links[0].url}>{paper.title}</a></Heading>
+        <p>{paper.description}</p>
+        {showAuthors && <p className="authors">{paper.authors}</p>}
+        <div className="paper-links">
+          {paper.links.map(({ label, url }) => (
+            <a key={url} href={url} target="_blank" rel="noreferrer" aria-label={paper.title + " " + label}>
+              {label} <FiArrowUpRight aria-hidden="true" />
+            </a>
           ))}
         </div>
-      </Card.Body>
-    </Card>
+      </div>
+    </article>
   );
 }
-export default ProjectCards;

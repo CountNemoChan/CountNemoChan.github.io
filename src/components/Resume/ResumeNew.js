@@ -1,73 +1,36 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
+import React, { useEffect, useRef, useState } from "react";
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
+import { FiDownload } from "react-icons/fi";
 import pdf from "../../Assets/CHEN_Liheng_CV_20261104.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-  const [numPages, setNumPages] = useState(null);
+export default function Resume() {
+  const viewer = useRef(null);
+  const [width, setWidth] = useState(0);
+  const [pages, setPages] = useState(0);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const observer = new ResizeObserver(([entry]) => {
+      setWidth(Math.floor(entry.contentRect.width));
+    });
+    observer.observe(viewer.current);
+    return () => observer.disconnect();
   }, []);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
-
   return (
-    <div>
-      <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-
-        <Row className="resume">
-          <Document
-            file={pdf}
-            onLoadSuccess={onDocumentLoadSuccess}
-            className="d-flex flex-column align-items-center"
-          >
-            {numPages &&
-              Array.from({ length: numPages }, (_, index) => (
-                <Page
-                  key={`page_${index + 1}`}
-                  pageNumber={index + 1}
-                  scale={width > 786 ? 1.7 : 0.6}
-                  className="resume-page"
-                />
-              ))}
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-      </Container>
-    </div>
+    <section className="inner-page">
+      <div className="section-heading cv-heading">
+        <h1>Curriculum vitae</h1>
+        <a className="action" href={pdf} download><FiDownload aria-hidden="true" /> Download PDF</a>
+      </div>
+      <div ref={viewer} className="cv-viewer">
+        <Document file={pdf} onLoadSuccess={document => setPages(document.numPages)}
+          error={<a href={pdf}>Open CV as a PDF</a>}>
+          {width > 0 && Array.from({ length: pages }, (_, i) => (
+            <Page key={i} pageNumber={i + 1} width={width} />
+          ))}
+        </Document>
+      </div>
+    </section>
   );
 }
-
-export default ResumeNew;

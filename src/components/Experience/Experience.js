@@ -1,49 +1,31 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import gangwudianliLogo from "../../Assets/Experience/gangwudianli.png";
-import abbLogo from "../../Assets/Experience/abb.png";
-import vastLogo from "../../Assets/Experience/vast_1.png";
-import meituanLogo from "../../Assets/Experience/meituan_logo.png";
-import nioLogo from "../../Assets/Experience/nio.png";
+import ipc from "../../Assets/Experience/gangwudianli.png";
+import abb from "../../Assets/Experience/abb.png";
+import vast from "../../Assets/Experience/vast_1.png";
+import meituan from "../../Assets/Experience/meituan_logo.png";
+import nio from "../../Assets/Experience/nio.png";
 
-const professionalExperience = [
-  { name: "IPC", logo: gangwudianliLogo },
-  { name: "ABB", logo: abbLogo },
-  { name: "VAST", logo: vastLogo },
-  { name: "Meituan", logo: meituanLogo },
-  { name: "NIO", logo: nioLogo },
+const positions = [
+  { company: "NIO Autonomous Driving", role: "Algorithm Researcher Intern, Foundation Model Research Team", dates: "Mar 2026 – Present", logo: nio },
+  { company: "Meituan", role: "Algorithm Researcher Intern, Department of Unmanned Vehicle", dates: "Dec 2025 – Mar 2026", logo: meituan },
+  { company: "VAST", role: "Algorithm Researcher Intern, Technology and Engineering", dates: "Aug 2024 – Jun 2025", logo: vast },
+  { company: "ABB (China)", role: "Algorithm Engineer Intern, Digital Systems", dates: "Jul 2024", logo: abb },
+  { company: "IPC", role: "System Engineering Intern, Communications", dates: "Jan – Feb 2024", logo: ipc },
 ];
 
-function Experience() {
+export default function Experience() {
   return (
-    <Container fluid className="professional-experience-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading professional-experience-heading">
-          Professional <strong className="purple">Experience</strong>
-        </h1>
-        <Row className="professional-experience-row">
-          {professionalExperience.map((experience) => (
-            <Col
-              key={experience.name}
-              xs={6}
-              md={3}
-              className="professional-experience-col"
-            >
-              <div className="professional-experience-logo-card">
-                <img
-                  src={experience.logo}
-                  alt={`${experience.name} logo`}
-                  className="professional-experience-logo"
-                />
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    </Container>
+    <section className="inner-page">
+      <h1>Experience</h1>
+      <ol className="positions">
+        {positions.map(({ company, role, dates, logo }) => (
+          <li key={company}>
+            <div className="employer-logo"><img src={logo} alt="" /></div>
+            <div className="position"><h2>{company}</h2><p>{role}</p></div>
+            <span className="metadata">{dates}</span>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 }
-
-export default Experience;

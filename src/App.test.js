@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { fireEvent, render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("opens the full publication list from selected research", () => {
+  jest.spyOn(window, "scrollTo").mockImplementation(() => {});
+  try {
+    render(<App />);
+    expect(screen.getAllByRole("article")).toHaveLength(3);
+    fireEvent.click(screen.getByRole("link", { name: "All publications" }));
+    expect(screen.getByRole("heading", { name: "Publications" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "The Power of Momentum Certificate" })).toBeInTheDocument();
+  } finally {
+    window.scrollTo.mockRestore();
+  }
 });

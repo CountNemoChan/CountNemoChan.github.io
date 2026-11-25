@@ -1,11 +1,25 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
-
-@import url("https://fonts.googleapis.com/css2?family=Outfit&family=PT+Mono&display=swap");
-
-body {
-  margin: 0;
-  font-family: "PT Mono", monospace !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(4 24 44), rgb(3 16 31));
+:root {
+  --paper: #faf9f6;
+  --ink: #202d27;
+  --muted: #53605a;
+  --line: #d7dcd4;
+  --pine: #2f5042;
+  --clay: #984827;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --sans: "Helvetica Neue", Arial, sans-serif;
+  --mono: "PT Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
 }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.55 var(--sans); -webkit-font-smoothing: antialiased;
+}
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+a { color: inherit; text-underline-offset: .2em; }
+a:hover { color: var(--clay); }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--clay); outline-offset: 4px; }
+h1,h2,h3,p { margin: 0; }
+h1,h2,h3 { font-family: var(--serif); font-weight: 500; line-height: 1.08; }
+img { display: block; max-width: 100%; }
+::selection { background: #dae5d8; }
