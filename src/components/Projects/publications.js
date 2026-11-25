@@ -37,7 +37,7 @@ export const publications = [
     featured: true,
     description: "Consistent driving video generation with fine-grained control using multiview visual-language reasoning.",
     authors: "Li-Heng Chen*, Ke Cheng*, Yahui Liu, Lei Shi, Shi-Sheng Huang, Hongbo Fu",
-    venue: "Under review",
+    venue: "TVCG (Major Revision)",
     image: vistagen,
     links: [{ label: "arXiv", url: "https://arxiv.org/abs/2603.28353" }],
   },

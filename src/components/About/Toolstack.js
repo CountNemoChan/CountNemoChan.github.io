@@ -17,7 +17,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
-        <div className="tech-icons-text">Vs Code</div>
+        <div className="tech-icons-text">VS Code</div>
       </Col>
 
       {/* <Col xs={4} md={2} className="tech-icons ">

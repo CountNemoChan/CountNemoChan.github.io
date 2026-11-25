@@ -39,11 +39,11 @@ export default function Home() {
         <div className="toolkit">
           <section>
             <h2>Research Skillset</h2>
-            <p>C++, Python, Data Analysis, Git, Docker</p>
+            <p>C++, Python, SQL, Git, Docker</p>
           </section>
           <section>
             <h2>Tools I Use</h2>
-            <p>Mac OS, Google Chrome, Vs Code</p>
+            <p>Mac OS, Google Chrome, VS Code</p>
           </section>
         </div>
         <details className="activity" onToggle={event => setShowActivity(event.currentTarget.open)}>
