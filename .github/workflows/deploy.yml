@@ -2,7 +2,7 @@ name: Deploy React site
 
 on:
   push:
-    branches: [react-portfolio]
+    branches: [design/concise-portfolio]
   workflow_dispatch:
 
 permissions:
