@@ -6,7 +6,7 @@ import meituan from "../../Assets/Experience/meituan_logo.png";
 import nio from "../../Assets/Experience/nio.png";
 
 const positions = [
-  { company: "NIO Autonomous Driving", role: "Algorithm Researcher Intern, Foundation Model Research Team", dates: "Mar 2026 – Present", logo: nio },
+  { company: "NIO", role: "Algorithm Researcher Intern, Foundation Model Research Team", dates: "Mar 2026 – Present", logo: nio },
   { company: "Meituan", role: "Algorithm Researcher Intern, Department of Unmanned Vehicle", dates: "Dec 2025 – Mar 2026", logo: meituan },
   { company: "VAST", role: "Algorithm Researcher Intern, Technology and Engineering", dates: "Aug 2024 – Jun 2025", logo: vast },
   { company: "ABB (China)", role: "Algorithm Engineer Intern, Digital Systems", dates: "Jul 2024", logo: abb },

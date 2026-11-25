@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutCard() {
   return (
     <div className="bio intro-text">
-      <h2>Know Who I Am</h2>
+  
       <p>
         I’m a second-year PhD candidate at{" "}
         <a
@@ -59,13 +59,13 @@ export default function AboutCard() {
         </li>
       </ul>
 
-      <blockquote>
+      {/* <blockquote>
         <p>
           "Building controllable visual worlds for reconstruction,
           simulation, and generation."
         </p>
         <footer>Li-Heng Chen</footer>
-      </blockquote>
+      </blockquote> */}
     </div>
   );
 }

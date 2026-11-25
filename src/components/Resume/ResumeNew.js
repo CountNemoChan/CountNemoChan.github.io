@@ -20,7 +20,7 @@ export default function Resume() {
   return (
     <section className="inner-page">
       <div className="section-heading cv-heading">
-        <h1>Curriculum vitae</h1>
+        <h1>Curriculum Vitae</h1>
         <a className="action" href={pdf} download><FiDownload aria-hidden="true" /> Download PDF</a>
       </div>
       <div ref={viewer} className="cv-viewer">
