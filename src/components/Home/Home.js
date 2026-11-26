@@ -3,6 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import { Link } from "react-router-dom";
 import { FiArrowRight, FiArrowUpRight, FiMail } from "react-icons/fi";
 import AboutCard from "../About/AboutCard";
+import Experience from "./Experience";
 import portrait from "../../Assets/profile_photo.jpeg";
 import { publications } from "../Projects/publications";
 import ProjectCard from "../Projects/ProjectCards";
@@ -24,7 +25,7 @@ export default function Home() {
         </div>
         <div className="portrait-frame"><img src={portrait} alt="Li-Heng Chen" width="886" height="886" /></div>
       </section>
-      <section className="selected" aria-labelledby="selected-title">
+      <section className="home-section" aria-labelledby="selected-title">
         <div className="section-heading">
           <h2 id="selected-title">Selected research</h2>
           <Link className="text-link" to="/project">All publications <FiArrowRight aria-hidden="true" /></Link>
@@ -35,6 +36,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <Experience />
       <div className="profile-details">
         <div className="toolkit">
           <section>

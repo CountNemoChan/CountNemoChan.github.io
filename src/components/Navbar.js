@@ -12,7 +12,6 @@ export default function Navbar() {
         <nav aria-label="Main navigation">
           <NavLink to="/" end>Home</NavLink>
           <NavLink to="/project">Publications</NavLink>
-          <NavLink to="/experience">Experience</NavLink>
           <NavLink to="/resume">CV</NavLink>
         </nav>
       </div>

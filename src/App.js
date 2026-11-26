@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
-import Experience from "./components/Experience/Experience";
 import "./style.css";
 
 const Resume = lazy(() => import("./components/Resume/ResumeNew"));
@@ -21,7 +20,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
+            <Route path="/experience" element={<Navigate replace to="/#experience" />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>

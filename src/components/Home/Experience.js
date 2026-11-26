@@ -15,13 +15,15 @@ const positions = [
 
 export default function Experience() {
   return (
-    <section className="inner-page">
-      <h1>Experience</h1>
+    <section id="experience" className="home-section" aria-labelledby="experience-title">
+      <div className="section-heading">
+        <h2 id="experience-title">Experience</h2>
+      </div>
       <ol className="positions">
         {positions.map(({ company, role, dates, logo }) => (
           <li key={company}>
             <div className="employer-logo"><img src={logo} alt="" /></div>
-            <div className="position"><h2>{company}</h2><p>{role}</p></div>
+            <div className="position"><h3>{company}</h3><p>{role}</p></div>
             <span className="metadata">{dates}</span>
           </li>
         ))}
